@@ -67,12 +67,14 @@
 {
   UISwipeGestureRecognizer *swipeGestureRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(swipeRecognized:)];
   [self.view addGestureRecognizer:swipeGestureRecognizer];
+  _canSwipeRightToGoBack = YES;
 }
 
 - (void)swipeRecognized:(UISwipeGestureRecognizer *)gestureRecognizer
 {
   if (gestureRecognizer.state == UIGestureRecognizerStateEnded &&
-    gestureRecognizer.direction & UISwipeGestureRecognizerDirectionRight) {
+    gestureRecognizer.direction & UISwipeGestureRecognizerDirectionRight &&
+    _canSwipeRightToGoBack) {
     [self popViewControllerAnimated:YES];
   }
 }

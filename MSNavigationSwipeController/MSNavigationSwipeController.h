@@ -10,4 +10,6 @@
 
 @interface MSNavigationSwipeController : UINavigationController
 
+@property (assign, nonatomic) BOOL canSwipeRightToGoBack;
+
 @end
