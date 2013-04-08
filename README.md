@@ -2,7 +2,7 @@
 
 Subclass of `UINavigationController` to add swipe right to go back gesture recognizer like most apps (Facebook, Tweetbot) already do.
 
-Just a couple of lines of code that are gonna improve the user experience of every app (especially iPhone 5 users!).
+Just a couple of lines of code that are gonna improve the user experience of every app (especially for iPhone 5 users!).
 
 
 
