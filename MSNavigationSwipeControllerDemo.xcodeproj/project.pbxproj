@@ -273,6 +273,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSNavigationSwipeControllerDemo/MSNavigationSwipeControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "MSNavigationSwipeControllerDemo/MSNavigationSwipeControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -284,6 +285,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSNavigationSwipeControllerDemo/MSNavigationSwipeControllerDemo-Prefix.pch";
 				INFOPLIST_FILE = "MSNavigationSwipeControllerDemo/MSNavigationSwipeControllerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
