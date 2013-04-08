@@ -1,5 +1,5 @@
 //
-//  MSViewController.h
+//  MSNavigationSwipeController.h
 //  MSNavigationSwipeControllerDemo
 //
 //  Created by Marco Sero on 08/04/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MSViewController : UIViewController
+@interface MSNavigationSwipeController : UINavigationController
 
 @end

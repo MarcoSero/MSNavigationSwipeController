@@ -17,7 +17,7 @@
 		A9A508C217134B1D0029530C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A508C117134B1D0029530C /* Default@2x.png */; };
 		A9A508C417134B1D0029530C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9A508C317134B1D0029530C /* Default-568h@2x.png */; };
 		A9A508C717134B1D0029530C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A508C517134B1D0029530C /* MainStoryboard.storyboard */; };
-		A9A508CA17134B1D0029530C /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A508C917134B1D0029530C /* MSViewController.m */; };
+		A9A508D217134B530029530C /* MSNavigationSwipeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A508D117134B530029530C /* MSNavigationSwipeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		A9A508C117134B1D0029530C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A9A508C317134B1D0029530C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A9A508C617134B1D0029530C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A9A508C817134B1D0029530C /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
-		A9A508C917134B1D0029530C /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		A9A508D017134B530029530C /* MSNavigationSwipeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSNavigationSwipeController.h; path = MSNavigationSwipeController/MSNavigationSwipeController.h; sourceTree = SOURCE_ROOT; };
+		A9A508D117134B530029530C /* MSNavigationSwipeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSNavigationSwipeController.m; path = MSNavigationSwipeController/MSNavigationSwipeController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,7 @@
 				A9A508BC17134B1D0029530C /* MSAppDelegate.h */,
 				A9A508BD17134B1D0029530C /* MSAppDelegate.m */,
 				A9A508C517134B1D0029530C /* MainStoryboard.storyboard */,
-				A9A508C817134B1D0029530C /* MSViewController.h */,
-				A9A508C917134B1D0029530C /* MSViewController.m */,
+				A9A508D317134BA10029530C /* MSNavigationSwipeController */,
 				A9A508B417134B1D0029530C /* Supporting Files */,
 			);
 			path = MSNavigationSwipeControllerDemo;
@@ -105,6 +104,16 @@
 				A9A508C317134B1D0029530C /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9A508D317134BA10029530C /* MSNavigationSwipeController */ = {
+			isa = PBXGroup;
+			children = (
+				A9A508D017134B530029530C /* MSNavigationSwipeController.h */,
+				A9A508D117134B530029530C /* MSNavigationSwipeController.m */,
+			);
+			name = MSNavigationSwipeController;
+			path = ../MSNavigationSwipeController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +185,7 @@
 			files = (
 				A9A508BA17134B1D0029530C /* main.m in Sources */,
 				A9A508BE17134B1D0029530C /* MSAppDelegate.m in Sources */,
-				A9A508CA17134B1D0029530C /* MSViewController.m in Sources */,
+				A9A508D217134B530029530C /* MSNavigationSwipeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +308,7 @@
 				A9A508CF17134B1D0029530C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
