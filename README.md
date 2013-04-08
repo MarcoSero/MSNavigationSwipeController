@@ -32,6 +32,8 @@ and use `MSNavigationSwipeController` as your navigation controller.
 
 That's it, really!
 
+You can also temporarily disable it with the property `canSwipeRightToGoBack`.
+
 
 ## Credits
 
