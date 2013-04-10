@@ -10,54 +10,10 @@
 
 @implementation MSNavigationSwipeController
 
-- (id)init
+- (void)viewDidLoad
 {
-  self = [super init];
-  if (self) {
-    [self addSwipeGestureRecognizer];
-    return self;
-  }
-  return nil;
-}
-
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-  self = [super initWithCoder:aDecoder];
-  if (self) {
-    [self addSwipeGestureRecognizer];
-    return self;
-  }
-  return nil;
-}
-
-- (id)initWithNavigationBarClass:(Class)navigationBarClass toolbarClass:(Class)toolbarClass
-{
-  self = [super initWithNavigationBarClass:navigationBarClass toolbarClass:toolbarClass];
-  if (self) {
-    [self addSwipeGestureRecognizer];
-    return self;
-  }
-  return nil;
-}
-
-- (id)initWithRootViewController:(UIViewController *)rootViewController
-{
-  self = [super initWithRootViewController:rootViewController];
-  if (self) {
-    [self addSwipeGestureRecognizer];
-    return self;
-  }
-  return nil;
-}
-
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-  self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-  if (self) {
-    [self addSwipeGestureRecognizer];
-    return self;
-  }
-  return nil;
+  [super viewDidLoad];
+  [self addSwipeGestureRecognizer];
 }
 
 
